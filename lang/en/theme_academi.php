@@ -93,7 +93,8 @@ $string['footerheading'] = 'Footer';
 $string['footerlogo'] = 'Footer logo';
 $string['footerlogodesc'] = 'Please upload your custom footer logo here if you want to add it to the footer.The image should be 80px high and any reasonable width (minimum:205px) that suits.';
 $string['footnote'] = 'Footnote';
-$string['footnotedefault'] = '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and tronic typesetting, sheets taining Lorem Ipsum passages.<br><a href="#">Read More &raquo;</a></p>';
+$string['footnotedefault'] = '<p>The Sophia Portal is a Massive Open Online Course (MOOC) platform that offers free short and medium-term courses, as a training alternative to quickly develop skills for work.
+</p>';
 $string['footnotedesc'] = 'Whatever you add to this textarea will be displayed in the footer throughout your Moodle site.';
 $string['headerheading'] = 'General';
 $string['home'] = "Home";
