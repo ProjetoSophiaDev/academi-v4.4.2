@@ -57,7 +57,7 @@ $string['container'] = "Container";
 $string['content'] = 'Content';
 $string['content_desc'] = 'To set the content for the this block, enter the block content as plain text or use the "lang" prefix followed by the appropriate "language_key" for multi-lingual support. You can find the theme language keys for multi-lingual support in the "/theme/academi/lang/en/theme_academi.php" file.';
 $string['copyright_default'] = 'Copyright &copy; 2024 - Desenvolvido por <a href="http://lmsace.com">LMSACE.com</a>. Distribuído por <a href="https://moodle.org">Moodle</a>';
-$string['copyright_footer'] = 'Copyright';
+$string['copyright_footer'] = 'Copyright &copy; 2024 - Desenvolvido por <a href="http://lmsace.com">LMSACE.com</a>. Distribuído por <a href="https://moodle.org">Moodle</a>';
 $string['custom'] = "Custom";
 $string['customcss'] = 'Custom CSS';
 $string['customcssdesc'] = 'Whatever CSS rules you add to this textarea will be reflected in every page, making for easier customization of this theme.';
