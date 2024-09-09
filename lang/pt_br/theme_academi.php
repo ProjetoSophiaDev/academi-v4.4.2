@@ -118,7 +118,7 @@ support|https://moodle.org/support
 Moodle development|https://moodle.org/development
 Moodle Docs|http://docs.moodle.org|Moodle Docs
 Moodle.com|http://moodle.com/';
-$string['jumbotronbtnlink_desc'] = 'Enter the URL to set the link for the button of the "Jumbotron".';
+$string['jumbotronbtnlink_desc'] = 'https://utfpr.curitiba.br/coted/';
 $string['jumbotronbtntarget_desc'] = 'Choose this option, whether the button link should be opened in a "Same" or "New" window on the "Jumbotron" block.';
 $string['jumbotronbtntext_desc'] = 'Enter the text for the first button of the "Jumbotron" block as plain text or multi-language support.';
 $string['jumbotronheading'] = 'Jumbotron';
