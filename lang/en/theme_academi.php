@@ -119,7 +119,7 @@ support|https://moodle.org/support
 Moodle development|https://moodle.org/development
 Moodle Docs|http://docs.moodle.org|Moodle Docs
 Moodle.com|http://moodle.com/';
-$string['jumbotronbtnlink_desc'] = 'Enter the URL to set the link for the button of the "Jumbotron".';
+$string['jumbotronbtnlink_desc'] = 'https://utfpr.curitiba.br/coted/';
 $string['jumbotronbtntarget_desc'] = 'Choose this option, whether the button link should be opened in a "Same" or "New" window on the "Jumbotron" block.';
 $string['jumbotronbtntext_desc'] = 'Enter the text for the first button of the "Jumbotron" block as plain text or multi-language support.';
 $string['jumbotronheading'] = 'Jumbotron';
@@ -136,7 +136,7 @@ $string['media'] = 'Media';
 $string['medium'] = 'Medium';
 $string['moodlebased'] = 'Moodle based';
 $string['moodledefault'] = "Moodle default";
-$string['mspotdesc'] = '<p> dir="ltr" style="text-align: center;">Os cursos são desenvolvidos ou Coordenados por professores da UTFPR e a submissão poderá ser por meio de editais específicos para o portal publicados pela Diretoria de Graduação e Educação Profissional DIRGRAD-CT, por meio de projetos de extensão, produtos educacionais produzidos em pesquisas de Mestrado e Doutorado de programas da UTFPR ou parceiros.</p> <p dir="ltr" style="text-align: center;"><strong><a href="mailto:COTED-CT@UTFPR.EDU.BR" target="_blank">Para mais informações, entre em contato com a equipe do Portal</a></strong></p>';
+$string['mspotdesc'] = '<p dir="ltr" style="text-align: center;">The courses are developed or coordinated by UTFPR professors and submission may be through specific notices for the portal published by the Directorate of Undergraduate and Professional Education DIRGRAD-CT, through extension projects, educational products produced in Master"s research and Doctorate from UTFPR programs or partners.</p> <p dir="ltr" style="text-align: center;"><strong><a href="mailto:COTED-CT@UTFPR.EDU.BR" target="_blank">For more information, contact the Portal team</a></strong></p>';
 $string['mspotdescription_desc'] = 'To set the content for the this block, enter the block content as plain text or use the "lang" prefix followed by the appropriate "language_key" for multi-lingual support. You can find the theme language keys for multi-lingual support in the "/theme/academi/lang/en/theme_academi.php" file.<br><br> Whatever you add to this textarea will be displayed in the Marketing Spot block in front page. <b style="color: red;">Important: Use html div tag with style="display:none" before adding the iframe as shown in the default value</b>';
 $string['mspotheading'] = 'Marketing Spot';
 $string['mspotmedia_desc'] = "";
