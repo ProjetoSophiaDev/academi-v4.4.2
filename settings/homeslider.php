@@ -159,7 +159,7 @@ for ($i = 1; $i <= $numberofslides; $i++) {
     $name = 'theme_academi/slide' . $i . 'btnurl';
     $title = get_string('slidebtnlink', 'theme_academi');
     $description = get_string('slidebtnlink_desc', 'theme_academi');
-    $default = 'http://www.example.com/';
+    $default = 'lang:slide'.$i.'1btnurl_default'; 
     $setting = new admin_setting_configtext($name, $title, $description, $default);
     $temp->add($setting);
 
