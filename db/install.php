@@ -47,8 +47,8 @@ function xmldb_theme_academi_install() {
         $filerecord->filearea = 'slide1image';
         $filerecord->filepath = '/';
         $filerecord->itemid = 0;
-        $filerecord->filename = 'slide1image.jpg';
-        $fs->create_file_from_pathname($filerecord, $CFG->dirroot . '/theme/academi/pix/home/slide1.jpg');
+        $filerecord->filename = 'slide1.png';
+        $fs->create_file_from_pathname($filerecord, $CFG->dirroot . '/theme/academi/pix/home/slide1.png');
 
         // Logo image.
         $fs = get_file_storage();
