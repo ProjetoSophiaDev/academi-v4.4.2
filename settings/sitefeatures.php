@@ -105,7 +105,7 @@ for ($i = 1; $i <= $sitefeatures; $i++) {
     $name = 'theme_academi/sitefblock'.$i.'url';
     $title = get_string('url', 'theme_academi');
     $description = get_string('urldesc', 'theme_academi', ['block' => $i]);
-    $default = 'lang:sitefblockurl.$i._default';
+    $default = 'lang:sitefblockurl'.$i.'_default';
     $setting = new admin_setting_configtext($name, $title, $description, $default);
     $temp->add($setting);
 }
