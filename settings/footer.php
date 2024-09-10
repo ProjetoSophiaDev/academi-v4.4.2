@@ -103,8 +103,7 @@ $temp->add($setting);
 $name = 'theme_academi/footnote';
 $title = get_string('footnote', 'theme_academi');
 $description = get_string('footnotedesc', 'theme_academi');
-//$default = 'lang:footnotedefault'; // TODO
-$default = get_string('footnotedefault', 'theme_academi') 
+$default = get_string('footnotedefault', 'theme_academi');
 $setting = new admin_setting_confightmleditor($name, $title, $description, $default);
 $setting->set_updatedcallback('theme_reset_all_caches');
 $temp->add($setting);
