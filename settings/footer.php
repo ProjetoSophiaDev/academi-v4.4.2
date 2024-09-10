@@ -213,7 +213,7 @@ $temp->add($setting);
 $name = 'theme_academi/numofsocialmedia';
 $title = get_string('numofsocialmedia', 'theme_academi');
 $description = get_string('numofsocialmediadesc', 'theme_academi');
-$default = 4;
+$default = 2;
 $choices = array_combine( range(1, 8), range(1, 8) );
 $setting = new admin_setting_configselect($name, $title, $description, $default, $choices);
 $temp->add($setting);
