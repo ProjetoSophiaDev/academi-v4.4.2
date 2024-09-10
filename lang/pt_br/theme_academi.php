@@ -132,7 +132,7 @@ $string['moodlebased'] = 'Moodle based';
 $string['moodledefault'] = "Moodle default";
 $string['mspotdesc'] = '<p dir="ltr" style="text-align: center;">Os cursos são desenvolvidos ou Coordenados por professores da UTFPR e a submissão poderá ser por meio de editais específicos para o portal publicados pela Diretoria de Graduação e Educação Profissional DIRGRAD-CT, por meio de projetos de extensão, produtos educacionais produzidos em pesquisas de Mestrado e Doutorado de programas da UTFPR ou parceiros.</p> <p dir="ltr" style="text-align: center;"><strong><a href="mailto:COTED-CT@UTFPR.EDU.BR" target="_blank">Para mais informações, entre em contato com a equipe do Portal</a></strong></p>';
 $string['mspotdescription_desc'] = 'To set the content for the this block, enter the block content as plain text or use the "lang" prefix followed by the appropriate "language_key" for multi-lingual support. You can find the theme language keys for multi-lingual support in the "/theme/academi/lang/en/theme_academi.php" file.<br><br> Whatever you add to this textarea will be displayed in the Marketing Spot block in front page. <b style="color: red;">Important: Use html div tag with style="display:none" before adding the iframe as shown in the default value</b>';
-$string['mspotheading'] = 'Gostaria de ofertar um curso pelo SOPHIA?';
+$string['mspotheading'] = 'Ponto de marketing';
 $string['mspotmedia_desc'] = "";
 $string['navstyle'] = 'Navbar style';
 $string['navstyle_desc'] = '';

@@ -103,7 +103,7 @@ function xmldb_theme_academi_install() {
         $fs->create_file_from_pathname($filerecord, $CFG->dirroot . '/theme/academi/pix/home/logo.png');
 
         // Footer logo image.
-        $fs = get_file_storage();
+       /* $fs = get_file_storage();
         $filerecord = new stdClass();
         $filerecord->component = 'theme_academi';
         $filerecord->contextid = context_system::instance()->id;
@@ -113,6 +113,20 @@ function xmldb_theme_academi_install() {
         $filerecord->itemid = 0;
         $filerecord->filename = 'footerlogo.png';
         $fs->create_file_from_pathname($filerecord, $CFG->dirroot . '/theme/academi/pix/home/footerlogo.png');
+        */
+        
+        // Footer background Image 
+        $fs = get_file_storage();
+        $filerecord = new stdClass();
+        $filerecord->component = 'theme_academi';
+        $filerecord->contextid = context_system::instance()->id;
+        $filerecord->userid = get_admin()->id;
+        $filerecord->filearea = 'footerbgimg';
+        $filerecord->filepath = '/';
+        $filerecord->itemid = 0;
+        $filerecord->filename = 'footerbgimg.png';
+        $fs->create_file_from_pathname($filerecord, $CFG->dirroot . '/theme/academi/pix/home/footerbgimg.png');
+
 
         // Marketing spot image.
         $fs = get_file_storage();
