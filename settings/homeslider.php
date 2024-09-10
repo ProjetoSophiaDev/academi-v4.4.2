@@ -127,7 +127,7 @@ for ($i = 1; $i <= $numberofslides; $i++) {
     $name = 'theme_academi/slide' . $i .'contentstatus';
     $title = get_string('slidecontentstatus', 'theme_academi', ['slide' => $i]);
     $description = get_string('slidecontentstatus_desc', 'theme_academi', ['slide' => $i]);
-    $default = get_string('slide'.$i.'contentstatus_default', 'theme_academi');
+    $default = get_string('slidecontentstatus'.$i.'_default', 'theme_academi');
     $setting = new admin_setting_configcheckbox($name, $title, $description, $default);
     $temp->add($setting);
 
@@ -135,7 +135,7 @@ for ($i = 1; $i <= $numberofslides; $i++) {
     $name = 'theme_academi/slide' . $i . 'caption';
     $title = get_string('slidecaption', 'theme_academi');
     $description = get_string('slidecaptiondesc', 'theme_academi');
-    $default = 'lang:slide'.$i.'caption_default';
+    $default = 'lang:slidecaption'.$i.'_default';
     $setting = new admin_setting_configtext($name, $title, $description, $default, PARAM_TEXT);
     $temp->add($setting);
 
@@ -143,7 +143,7 @@ for ($i = 1; $i <= $numberofslides; $i++) {
     $name = 'theme_academi/slide' . $i . 'desc';
     $title = get_string('slidedesc', 'theme_academi');
     $description = get_string('slidedesctext', 'theme_academi');
-    $default = 'lang:slide'.$i.'desc_default';
+    $default = 'lang:slidedesc'.$i.'_default';
     $setting = new admin_setting_configtextarea($name, $title, $description, $default);
     $temp->add($setting);
 
@@ -151,7 +151,7 @@ for ($i = 1; $i <= $numberofslides; $i++) {
     $name = 'theme_academi/slide' . $i . 'btntext';
     $title = get_string('slidebtntext', 'theme_academi');
     $description = get_string('slidebtntext_desc', 'theme_academi');
-    $default = 'lang:slide'.$i.'btntext_default';
+    $default = 'lang:slidebtntext'.$i.'_default';
     $setting = new admin_setting_configtext($name, $title, $description, $default, PARAM_TEXT);
     $temp->add($setting);
 
@@ -159,7 +159,7 @@ for ($i = 1; $i <= $numberofslides; $i++) {
     $name = 'theme_academi/slide' . $i . 'btnurl';
     $title = get_string('slidebtnlink', 'theme_academi');
     $description = get_string('slidebtnlink_desc', 'theme_academi');
-    $default = get_string('slide' . $i . 'btnurl_default', 'theme_academi');
+    $default = 'lang:slidebtnurl'.$i.'_default';
     $setting = new admin_setting_configtext($name, $title, $description, $default);
     $temp->add($setting);
 
@@ -188,7 +188,7 @@ for ($i = 1; $i <= $numberofslides; $i++) {
     $name = 'theme_academi/slide' . $i . 'contentPosition';
     $title = get_string('slidecontent', 'theme_academi', ['slide' => $i]);
     $description = get_string('slidecontentdesc', 'theme_academi');
-    $default = get_string('slide'.$i.'contentPosition_default', 'theme_academi');
+    $default = get_string('slidecontentPosition'.$i.'_default', 'theme_academi');
     $choices = [
         "topLeft" => get_string("topLeft", "theme_academi"),
         "topCenter" => get_string("topCenter", "theme_academi"),
