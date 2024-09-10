@@ -166,7 +166,7 @@ $temp->add($setting);
 $name = 'theme_academi/address';
 $title = get_string('address', 'theme_academi');
 $description = '';
-$default = get_string('defaultaddress', 'theme_academi');
+$default = 'lang:defaultaddress';
 $setting = new admin_setting_configtext($name, $title, $description, $default);
 $temp->add($setting);
 
@@ -174,7 +174,7 @@ $temp->add($setting);
 $name = 'theme_academi/emailid';
 $title = get_string('emailid', 'theme_academi');
 $description = '';
-$default = get_string('defaultemailid', 'theme_academi');
+$default = 'lang:defaultemailid';
 $setting = new admin_setting_configtext($name, $title, $description, $default);
 $temp->add($setting);
 
@@ -182,7 +182,7 @@ $temp->add($setting);
 $name = 'theme_academi/phoneno';
 $title = get_string('phoneno', 'theme_academi');
 $description = '';
-$default = get_string('defaultphoneno', 'theme_academi');
+$default = 'lang:defaultphoneno';
 $setting = new admin_setting_configtext($name, $title, $description, $default);
 $temp->add($setting);
 
