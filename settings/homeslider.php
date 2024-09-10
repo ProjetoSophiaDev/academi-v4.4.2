@@ -188,7 +188,7 @@ for ($i = 1; $i <= $numberofslides; $i++) {
     $name = 'theme_academi/slide' . $i . 'contentPosition';
     $title = get_string('slidecontent', 'theme_academi', ['slide' => $i]);
     $description = get_string('slidecontentdesc', 'theme_academi');
-    $default = 'centerRight';
+    $default = get_string('slide'.$i.'contentPosition_default', 'theme_academi');
     $choices = [
         "topLeft" => get_string("topLeft", "theme_academi"),
         "topCenter" => get_string("topCenter", "theme_academi"),
