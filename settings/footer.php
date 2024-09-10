@@ -56,7 +56,7 @@ $temp->add($setting);
 $name = 'theme_academi/copyright_footer';
 $title = get_string('copyright_footer', 'theme_academi');
 $description = '';
-$default = get_string('copyright_default', 'theme_academi');
+$default = 'lang:copyright_default';
 $setting = new admin_setting_configtext($name, $title, $description, $default);
 $temp->add($setting);
 
