@@ -135,7 +135,7 @@ $temp->add($setting);
 $name = 'theme_academi/infolink';
 $title = get_string('infolink', 'theme_academi');
 $description = get_string('infolink_desc', 'theme_academi');
-$default = get_string('infolinkdefault', 'theme_academi');
+$default = 'lang:infolinkdefault';
 $setting = new admin_setting_configtextarea($name, $title, $description, $default);
 $temp->add($setting);
 
