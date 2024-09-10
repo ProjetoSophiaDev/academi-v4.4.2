@@ -114,6 +114,7 @@ Terms of use | https://sophia.ct.utfpr.edu.br/mod/page/view.php?id=1735
 Privacy Policy | https://sophia.ct.utfpr.edu.br/mod/page/view.php?id=1742
 Verify Certificate | https://sophia.ct.utfpr.edu.br/mod/customcert/verify_certificate.php';
 $string['jumbotronbtnlink_desc'] = 'Enter the URL to set the link for the button of the "Jumbotron".';
+$string['jumbotronbtnlink'] = 'https://utfpr.curitiba.br/coted/';
 $string['jumbotronbtntarget_desc'] = 'Choose this option, whether the button link should be opened in a "Same" or "New" window on the "Jumbotron" block.';
 $string['jumbotronbtntext_desc'] = 'Enter the text for the first button of the "Jumbotron" block as plain text or multi-language support.';
 $string['jumbotronheading'] = 'Jumbotron';
