@@ -75,7 +75,7 @@ $temp->add($setting);
 $name = 'theme_academi/numberofslides';
 $title = get_string('numberofslides', 'theme_academi');
 $description = get_string('numberofslides_desc', 'theme_academi');
-$default = 3;
+$default = 5;
 $choices = [
     1 => '1',
     2 => '2',
