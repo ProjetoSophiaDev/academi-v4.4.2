@@ -62,8 +62,8 @@ $temp->add($setting);
 $name = 'theme_academi/mspotcontent';
 $title = get_string('content', 'theme_academi');
 $description = get_string('content_desc', 'theme_academi');
-$default = get_string('mspotdesc', 'theme_academi');
-$setting = new admin_setting_confightmleditor($name, $title, $description, $default);
+$default = 'lang:mspotdesc';
+$setting = new admin_setting_configtextarea($name, $title, $description, $default);
 $temp->add($setting);
 
 // Marketing Spot Media.
