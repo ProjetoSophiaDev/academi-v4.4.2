@@ -107,19 +107,13 @@ $string['importsettings'] = "Import other preset settings.";
 $string['importthemesettings']  = 'Import the {$a} settings';
 $string['info'] = "Info";
 $string['infolink'] = 'Info Links';
-$string['infolink_desc'] = 'You can configure a custom Info Links here to be shown by themes. Each line consists of some menu text, a link URL (optional), a tooltip title (optional) and a language code or comma-separated list of codes (optional, for displaying the line to users of the specified language only), separated by pipe characters.For example:
-    <pre> Moodle community|https://moodle.org
-    Moodle free support|https://moodle.org/support
-    Moodle development|https://moodle.org/development
-    Moodle Docs|http://docs.moodle.org|Moodle Docs
-    German Moodle Docs|http://docs.moodle.org/de|Documentation in German|de
-    Moodle.com|http://moodle.com/ </pre>';
-$string['infolinkdefault'] = 'Moodle community|https://moodle.org Moodle free
-support|https://moodle.org/support
-Moodle development|https://moodle.org/development
-Moodle Docs|http://docs.moodle.org|Moodle Docs
-Moodle.com|http://moodle.com/';
-$string['jumbotronbtnlink_desc'] = 'https://utfpr.curitiba.br/coted/';
+$string['infolink_desc'] = 'You can configure a custom Info Links here to be shown by themes. Each line consists of some menu text, a link URL (optional), a tooltip title (optional) and a language code or comma-separated list of codes (optional, for displaying the line to users of the specified language only), separated by pipe characters.';
+$string['infolinkdefault'] = 'UTFPR Portal | http://portal.utfpr.edu.br/institucional
+COTED Portal | https://utfpr.curitiba.br/coted
+Terms of use | https://sophia.ct.utfpr.edu.br/mod/page/view.php?id=1735
+Privacy Policy | https://sophia.ct.utfpr.edu.br/mod/page/view.php?id=1742
+Verify Certificate | https://sophia.ct.utfpr.edu.br/mod/customcert/verify_certificate.php';
+$string['jumbotronbtnlink_desc'] = 'Enter the URL to set the link for the button of the "Jumbotron".';
 $string['jumbotronbtntarget_desc'] = 'Choose this option, whether the button link should be opened in a "Same" or "New" window on the "Jumbotron" block.';
 $string['jumbotronbtntext_desc'] = 'Enter the text for the first button of the "Jumbotron" block as plain text or multi-language support.';
 $string['jumbotronheading'] = 'Jumbotron';
