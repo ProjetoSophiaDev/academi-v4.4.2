@@ -50,6 +50,46 @@ function xmldb_theme_academi_install() {
         $filerecord->filename = 'slide1.png';
         $fs->create_file_from_pathname($filerecord, $CFG->dirroot . '/theme/academi/pix/home/slide1.png');
 
+        $filerecord = new stdClass();
+        $filerecord->component = 'theme_academi';
+        $filerecord->contextid = context_system::instance()->id;
+        $filerecord->userid = get_admin()->id;
+        $filerecord->filearea = 'slide2image';
+        $filerecord->filepath = '/';
+        $filerecord->itemid = 0;
+        $filerecord->filename = 'slide2.png';
+        $fs->create_file_from_pathname($filerecord, $CFG->dirroot . '/theme/academi/pix/home/slide2.png');
+
+        $filerecord = new stdClass();
+        $filerecord->component = 'theme_academi';
+        $filerecord->contextid = context_system::instance()->id;
+        $filerecord->userid = get_admin()->id;
+        $filerecord->filearea = 'slide3image';
+        $filerecord->filepath = '/';
+        $filerecord->itemid = 0;
+        $filerecord->filename = 'slide3.png';
+        $fs->create_file_from_pathname($filerecord, $CFG->dirroot . '/theme/academi/pix/home/slide3.png');
+
+        $filerecord = new stdClass();
+        $filerecord->component = 'theme_academi';
+        $filerecord->contextid = context_system::instance()->id;
+        $filerecord->userid = get_admin()->id;
+        $filerecord->filearea = 'slide4image';
+        $filerecord->filepath = '/';
+        $filerecord->itemid = 0;
+        $filerecord->filename = 'slide4.png';
+        $fs->create_file_from_pathname($filerecord, $CFG->dirroot . '/theme/academi/pix/home/slide4.png');
+
+        $filerecord = new stdClass();
+        $filerecord->component = 'theme_academi';
+        $filerecord->contextid = context_system::instance()->id;
+        $filerecord->userid = get_admin()->id;
+        $filerecord->filearea = 'slide5image';
+        $filerecord->filepath = '/';
+        $filerecord->itemid = 0;
+        $filerecord->filename = 'slide5.png';
+        $fs->create_file_from_pathname($filerecord, $CFG->dirroot . '/theme/academi/pix/home/slide5.png');
+
         // Logo image.
         $fs = get_file_storage();
         $filerecord = new stdClass();
