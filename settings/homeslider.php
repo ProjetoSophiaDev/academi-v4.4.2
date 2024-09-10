@@ -57,7 +57,7 @@ $temp->add($setting);
 $name = 'theme_academi/slideinterval';
 $title = get_string('slideinterval', 'theme_academi');
 $description = get_string('slideintervaldesc', 'theme_academi');
-$default = 3500;
+$default = 4000;
 $setting = new admin_setting_configtext($name, $title, $description, $default, PARAM_INT);
 $temp->add($setting);
 
@@ -127,7 +127,7 @@ for ($i = 1; $i <= $numberofslides; $i++) {
     $name = 'theme_academi/slide' . $i .'contentstatus';
     $title = get_string('slidecontentstatus', 'theme_academi', ['slide' => $i]);
     $description = get_string('slidecontentstatus_desc', 'theme_academi', ['slide' => $i]);
-    $default = YES;
+    $default = get_string('slide'.$i.'contentstatus_default', 'theme_academi');
     $setting = new admin_setting_configcheckbox($name, $title, $description, $default);
     $temp->add($setting);
 
