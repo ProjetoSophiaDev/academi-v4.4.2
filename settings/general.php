@@ -61,7 +61,7 @@ $temp->add($setting);
 $name = 'theme_academi/primarycolor';
 $title = get_string('primarycolor', 'theme_academi');
 $description = get_string('primarycolor_desc', 'theme_academi');
-$default = "";
+$default = "#22386f";
 $setting = new admin_setting_configcolourpicker($name, $title, $description, $default);
 $setting->set_updatedcallback('theme_reset_all_caches');
 $temp->add($setting);
@@ -70,7 +70,7 @@ $temp->add($setting);
 $name = 'theme_academi/secondarycolor';
 $title = get_string('secondarycolor', 'theme_academi');
 $description = get_string('secondarycolor_desc', 'theme_academi');
-$default = "";
+$default = "#f0c10c";
 $setting = new admin_setting_configcolourpicker($name, $title, $description, $default);
 $setting->set_updatedcallback('theme_reset_all_caches');
 $temp->add($setting);
@@ -79,7 +79,7 @@ $temp->add($setting);
 $name = 'theme_academi/themestyleheader';
 $title = get_string('themestyleheader', 'theme_academi');
 $description = get_string('themestyleheader_desc', 'theme_academi');
-$default = THEMEBASED;
+$default = MOODLEBASED;
 $choices = [
     THEMEBASED => get_string('themebased', 'theme_academi'),
     MOODLEBASED => get_string('moodlebased', 'theme_academi'),
