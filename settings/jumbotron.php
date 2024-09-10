@@ -70,7 +70,7 @@ $temp->add($setting);
 $name = 'theme_academi/jumbotronbtnlink';
 $title = get_string('buttonlink', 'theme_academi');
 $description = get_string('jumbotronbtnlink_desc', 'theme_academi');
-$default = 'https://utfpr.curitiba.br/coted/';
+$default = = get_string('jumbotronbtnlink', 'theme_academi');
 $setting = new admin_setting_configtext($name, $title, $description, $default, PARAM_URL);
 $temp->add($setting);
 
