@@ -26,17 +26,20 @@ defined('MOODLE_INTERNAL') || die();
 
 require_once(dirname(__FILE__) .'/includes/layoutdata.php');
 require_once(dirname(__FILE__) .'/includes/homeslider.php');
+require_once(dirname(__FILE__) . '/includes/frontpage_numbers.php');
 
 $PAGE->requires->css(new moodle_url('/theme/academi/style/slick.css'));
 $PAGE->requires->js_call_amd('theme_academi/frontpage', 'init');
 $bodyattributes = $OUTPUT->body_attributes($extraclasses);
 // Jumbotron class.
 $jumbotronclass = (!empty(theme_academi_get_setting('jumbotronstatus'))) ? 'jumbotron-element' : '';
+$slideshow = general();
 // Slide show contnet added in the templatecontext.
 $templatecontext += $sliderconfig;
 $templatecontext += [
     'bodyattributes' => $bodyattributes,
     'jumbotronclass' => $jumbotronclass,
+    'slideshow' => $slideshow . $frontpage_numbers_layout,
 ];
 
 echo $OUTPUT->render_from_template('theme_academi/frontpage', $templatecontext);
